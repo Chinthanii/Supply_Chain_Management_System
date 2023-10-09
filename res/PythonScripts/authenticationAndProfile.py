@@ -180,3 +180,18 @@ def homepage(request, database_instance, session):
         login = True
         session['loggedin'] = True
     return render_template("customer/index.html", login=login)
+
+
+def contactUs(request, database_instance, session):
+    login = False
+    session['loggedin'] = False
+    if 'customer_id' in session:
+        login = True
+        session['loggedin'] = True
+    if 'store_manager_id' in session:
+        login = True
+        session['loggedin'] = True
+    if 'main_manager_id' in session:
+        login = True
+        session['loggedin'] = True
+    return render_template("customer/contactUs.html", login=login)

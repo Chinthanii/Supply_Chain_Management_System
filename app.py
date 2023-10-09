@@ -53,6 +53,12 @@ def Cart():
     return productsHandling.CartFunction(request, db_details, database_instance, session)
 
 
+@app.route('/contactUs', methods=['GET', 'POST'])
+def contactUs():
+    return authenticationAndProfile.contactUs(request, database_instance, session)
+
+
+
 @app.route('/buyNow', methods=['GET', 'POST'])
 def BuyNow():
     return productsHandling.BuyNowFunction(request, db_details, database_instance, session)
