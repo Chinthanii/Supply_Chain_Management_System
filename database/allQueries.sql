@@ -1,3 +1,6 @@
+    CREATE SCHEMA `shopee2` ;
+    USE `shopee2`;
+    
     CREATE TABLE IF NOT EXISTS users (
       user_name varchar(100),
       password varchar(50),

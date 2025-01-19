@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'your secret key'
 
 # TODO : Get the db_details from the txt file
-db_details = {'user': 'root', 'password': '1234', 'host': 'localhost', 'database': 'test3'}
+db_details = {'user': 'root', 'password': 'root', 'host': 'localhost', 'database': 'shopee_db'}
 # db_details = {'user': 'freedb_testuser2', 'password': '87fB*5ueP#E6yru', 'host': 'sql.freedb.tech', 'database': 'freedb_testdatabase2', 'port': 3306}
 database_instance = mysql.connector.connect(**db_details)
 
