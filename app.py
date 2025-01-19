@@ -1,13 +1,12 @@
 ﻿from flask import Flask, request, session
 import mysql.connector
 from res.PythonScripts import authenticationAndProfile, productsHandling, utils, reports, managersFunctions
-
+from config import DB_CONFIG
 
 app = Flask(__name__)
 app.secret_key = 'your secret key'
 
-# TODO : Get the db_details from the txt file
-db_details = {'user': 'root', 'password': 'root', 'host': 'localhost', 'database': 'shopee_db'}
+db_details = {'user': DB_CONFIG['user'], 'password': DB_CONFIG['password'], 'host': DB_CONFIG['host'], 'database': DB_CONFIG['database']}
 # db_details = {'user': 'freedb_testuser2', 'password': '87fB*5ueP#E6yru', 'host': 'sql.freedb.tech', 'database': 'freedb_testdatabase2', 'port': 3306}
 database_instance = mysql.connector.connect(**db_details)
 

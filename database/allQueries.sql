@@ -1,5 +1,5 @@
-    CREATE SCHEMA `shopee2` ;
-    USE `shopee2`;
+    CREATE SCHEMA `shopee_db` ;
+    USE `shopee_db`;
     
     CREATE TABLE IF NOT EXISTS users (
       user_name varchar(100),
