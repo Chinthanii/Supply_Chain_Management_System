@@ -92,9 +92,8 @@ The **Supply Chain Management System** is a comprehensive solution to streamline
 ## Entity-Relationship Diagram
 Below is the ER Diagram for the Supply Chain Management System:
 
-![ER Diagram](path/to/er-diagram.png)
+The ER diagram is available as a PDF file in the repository at `database/ER_Diagram.pdf`.
 
-*Note: Replace `path/to/er-diagram.png` with the actual path or URL to your ER diagram image.*
 
 ---
 
