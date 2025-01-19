@@ -97,15 +97,17 @@ The ER diagram can be viewed by opening the [`ER_Diagram.pdf`](ER_Diagram.pdf) f
 
 ---
 
-## Usage
-
 ### Order Placement
-- Customers can place orders through the system, selecting their delivery route and address.
-- The system schedules deliveries based on capacity and availability.
+- Customers can place orders through the system by logging into the platform.
+- After logging in, customers can create a new order, specifying product details, quantities, and delivery addresses.
+- The system will automatically schedule deliveries based on transport availability and capacity.
 
 ### Monitoring and Analytics
-- Access the reports section to view sales trends, personnel hours, and item popularity.
-- Monitor and optimize logistics performance.
+- Administrators can log in to access the reports section.
+- View detailed sales reports, top-selling items, and sales trends by city and route.
+- Monitor driver and assistant work hours, along with truck utilization statistics.
+- Generate custom reports based on specific criteria for data-driven decision-making.
+
 
 ---
 
