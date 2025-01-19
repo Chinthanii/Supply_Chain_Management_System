@@ -1,8 +1,9 @@
 ﻿from flask import Flask, request, session
 import mysql.connector
-from res import reports
+from scripts import reports
 from config import DB_CONFIG
-from res import authenticationAndProfile, managersFunctions, productsHandling, utils
+from scripts import utils
+from scripts import authenticationAndProfile, managersFunctions, productsHandling
 
 app = Flask(__name__)
 app.secret_key = 'your secret key'
