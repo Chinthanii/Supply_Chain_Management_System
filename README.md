@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Supply Chain Management System** is a comprehensive solution to streamline logistics and supply chain operations for **Company Shopee**, a production company located in Kandy. This system is designed to manage order scheduling, transportation logistics via railway and trucks, and generate analytical reports to optimize decision-making.
+The **Supply Chain Management System** is a comprehensive solution to streamline logistics and supply chain operations for **Company A**, a production company located in Kandy. This system is designed to manage order scheduling, transportation logistics via railway and trucks, and generate analytical reports to optimize decision-making.
 
 ---
 
@@ -46,40 +46,55 @@ The **Supply Chain Management System** is a comprehensive solution to streamline
 ### Prerequisites
 - **Python 3.7+**
 - **MySQL Server**
-- **Flask and MySQL libraries**:
-  ```bash
-  pip install flask flask-mysqldb
-  ```
 
 ### Steps to Set Up the Project
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Chinthanii/Supply_Chain_Management_System.git
    cd Supply_Chain_Management_System
    ```
 
-2. **Set Up the Database**:
-   - Import the SQL schema provided in the repository (e.g., `database/schema.sql`) into MySQL.
-   - Configure database connection details in the Flask app:
+2. **Install Required Dependencies**:
+   - Install all the necessary libraries using the `requirements.txt` file:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Set Up the Database**:
+   - Import the `database/schema.sql` file into your MySQL server.
+   - Update the `config.py` file to set your database connection details:
      ```python
-     db_details = {
-         'user': 'root',
-         'password': 'root',
-         'host': 'localhost',
-         'database': 'shopee_db'
+     # config.py
+     DB_CONFIG = {
+         'host': 'localhost',       # Database host
+         'user': 'root',            # Database username
+         'password': 'root',        # Database password
+         'database': 'shopee_db',   # Database name
+         'port': 3306               # MySQL port (default is 3306)
      }
      ```
 
-3. **Run the Application**:
-   ```bash
-   python app.py
-   ```
+4. **Run the Application**:
+   - Start the Flask development server:
+     ```bash
+     python app.py
+     ```
 
-4. **Access the System**:
-   Open your browser and navigate to:
-   ```
-   http://127.0.0.1:5000
-   ```
+5. **Access the System**:
+   - Open your web browser and navigate to:
+     ```
+     http://127.0.0.1:5000
+     ```
+
+---
+
+## Entity-Relationship Diagram
+Below is the ER Diagram for the Supply Chain Management System:
+
+![ER Diagram](path/to/er-diagram.png)
+
+*Note: Replace `path/to/er-diagram.png` with the actual path or URL to your ER diagram image.*
 
 ---
 
