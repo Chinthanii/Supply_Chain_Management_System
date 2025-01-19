@@ -1,6 +1,6 @@
 import mysql.connector
 from flask import redirect, url_for, render_template
-from res.PythonScripts import utils
+from res import utils
 
 
 def registrationFunction(request, database_instance, super_password_okay=False):
