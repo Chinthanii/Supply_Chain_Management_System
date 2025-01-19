@@ -92,7 +92,7 @@ The **Supply Chain Management System** is a comprehensive solution to streamline
 ## Entity-Relationship Diagram
 Below is the ER Diagram for the Supply Chain Management System:
 
-The ER diagram can be viewed by opening the [`database/ER_Diagram.pdf`](ER_Diagram.pdf) file available in the repository.
+The ER diagram can be viewed by opening the [`ER_Diagram.pdf`](ER_Diagram.pdf) file available in the repository.
 
 
 ---
@@ -127,14 +127,3 @@ The ER diagram can be viewed by opening the [`database/ER_Diagram.pdf`](ER_Diagr
 - Implement predictive analytics for demand forecasting and capacity planning.
 - Expand delivery options to include additional transport modes (e.g., sea or air).
 
----
-
-## License
-This project is available under the [MIT License](LICENSE).
-
----
-
-## Contribution
-Contributions are welcome! Please feel free to submit issues or pull requests via the GitHub repository.
-
-For more details, visit the [GitHub repository](https://github.com/Chinthanii/Supply_Chain_Management_System).
