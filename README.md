@@ -68,8 +68,8 @@ The **Supply Chain Management System** is a comprehensive solution to streamline
      # config.py
      DB_CONFIG = {
          'host': 'localhost',       # Database host
-         'user': 'root',            # Database username
-         'password': 'root',        # Database password
+         'user': 'USERNAME',            # Database username
+         'password': 'PASSWORD',        # Database password
          'database': 'shopee_db',   # Database name
          'port': 3306               # MySQL port (default is 3306)
      }
@@ -92,7 +92,7 @@ The **Supply Chain Management System** is a comprehensive solution to streamline
 ## Entity-Relationship Diagram
 Below is the ER Diagram for the Supply Chain Management System:
 
-The ER diagram is available as a PDF file in the repository at `database/ER_Diagram.pdf`.
+The ER diagram can be viewed by opening the [`database/ER_Diagram.pdf`](ER_Diagram.pdf) file available in the repository.
 
 
 ---
