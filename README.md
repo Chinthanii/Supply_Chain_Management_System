@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Supply Chain Management System** is a comprehensive solution to streamline logistics and supply chain operations for **Company A**, a production company located in Kandy. This system is designed to manage order scheduling, transportation logistics via railway and trucks, and generate analytical reports to optimize decision-making.
+The **Supply Chain Management System** is a comprehensive solution to streamline logistics and supply chain operations for **Company Shopee**, a production company located in Kandy. This system is designed to manage order scheduling, transportation logistics via railway and trucks, and generate analytical reports to optimize decision-making.
 
 ---
 
